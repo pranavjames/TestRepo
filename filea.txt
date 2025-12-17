@@ -1,0 +1,38 @@
+1  public class SampleProgram {
+2      public static void main(String[] args) {
+3          // Create an array of integers
+4          int[] numbers = {5, 10, 15, 20, 25, 30};
+5  
+6          // Print initial array
+7          System.out.println("Original numbers:");
+8          printArray(numbers);
+9  
+10         // Double the values
+11         for (int i = 0; i < numbers.length; i++) {
+12             numbers[i] = numbers[i] * 2;
+13         }
+14 
+15         // Print updated array
+16         System.out.println("Doubled values:");
+17         printArray(numbers);
+18 
+19         // Compute and print sum
+20         int sum = computeSum(numbers);
+21         System.out.println("Sum of doubled values: " + sum);
+22     }
+23 
+24     public static void printArray(int[] arr) {
+25         for (int num : arr) {
+26             System.out.print(num + " ");
+27         }
+28         System.out.println();
+29     }
+30 
+31     public static int computeSum(int[] arr) {
+32         int total = 0;
+33         for (int num : arr) {
+34             total += num;
+35         }
+36         return total;
+37     }
+38 }
