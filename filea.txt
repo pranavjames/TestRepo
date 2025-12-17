@@ -36,3 +36,11 @@
 36         return total;
 37     }
 38 }
+31     public static int computeSum(int[] arr) {
+32         int total = 0;
+33         for (int num : arr) {
+34             total += num;
+35         }
+36         return total;
+37     }
+38 }
