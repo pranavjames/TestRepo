@@ -1,8 +1,8 @@
 1  public class SampleProgram {
 2      public static void main(String[] args) {
-3          // Create an array of integers
-4          int[] numbers = {5, 10, 15, 20, 25, 30};
-5  
+3  // removed two lines
+5  // removed two lines
+// added third line
 6          // Print initial array
 7          System.out.println("Original numbers:");
 8          printArray(numbers);
